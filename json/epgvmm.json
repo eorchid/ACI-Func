@@ -1,0 +1,10 @@
+{
+    "fvRsDomAtt": {
+        "attributes": {
+            "resImedcy": "immediate", 
+            "status": "created", 
+            "tDn": "uni/vmmp-VMware/dom-Corp-vmm-domain"
+        }, 
+        "children": []
+    }
+}

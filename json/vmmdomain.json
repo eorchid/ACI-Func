@@ -1,0 +1,46 @@
+{
+    "vmmDomP": {
+        "attributes": {
+            "name": "Corp-vmm-domain"
+        },
+        "children": [
+            {
+                "vmmCtrlrP": {
+                    "attributes": {
+                        "hostOrIp": "1.1.1.1",
+                        "name": "corp-vc",
+                        "rootContName": "corp-dc"
+                    },
+                    "children": [
+                        {
+                            "vmmRsAcc": {
+                                "attributes": {
+                                    "tDn": "uni/vmmp-VMware/dom-Corp-vmm-domain/usracc-corp-vc-cred"
+                                },
+                                "children": []
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "infraRsVlanNs": {
+                    "attributes": {
+                        "tDn": "uni/infra/vlanns-[Corp-vmm-vlan]-dynamic"
+                    },
+                    "children": []
+                }
+            },
+            {
+                "vmmUsrAccP": {
+                    "attributes": {
+                        "name": "corp-vc-cred",
+                        "pwd": "123456",
+                        "usr": "root"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}

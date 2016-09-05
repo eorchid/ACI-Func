@@ -1,0 +1,30 @@
+{
+    "fvAEPg": {
+        "attributes": {
+            "dn": "uni/tn-Test-Corp/ap-WebApplicationProfile/epg-DB", 
+            "status": "modified"
+        }, 
+        "children": [
+            {
+                "fvRsDomAtt": {
+                    "attributes": {
+                        "encap": "vlan-45", 
+                        "status": "created", 
+                        "tDn": "uni/phys-Corp-phy-domain"
+                    }, 
+                    "children": []
+                }
+            }, 
+            {
+                "fvRsPathAtt": {
+                    "attributes": {
+                        "encap": "vlan-45", 
+                        "status": "created", 
+                        "tDn": "topology/pod-1/paths-103/pathep-[eth1/10]"
+                    }, 
+                    "children": []
+                }
+            }
+        ]
+    }
+}

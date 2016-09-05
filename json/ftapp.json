@@ -1,0 +1,21 @@
+{
+    "vzFilter": {
+        "attributes": {
+            "name": "app_ft"
+        },
+        "children": [
+            {
+                "vzEntry": {
+                    "attributes": {
+                        "dFromPort": "5000",
+                        "dToPort": "6000",
+                        "etherT": "ip",
+                        "name": "app",
+                        "prot": "tcp"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}

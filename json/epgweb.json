@@ -1,0 +1,27 @@
+{
+    "fvAEPg": {
+        "attributes": {
+            "name": "Web"
+        },
+        "children": [
+            {
+                "fvRsBd": {
+                    "attributes": {
+                        "tnFvBDName": "BD1"
+                    },
+                    "children": []
+                }
+            },
+            {
+                "fvRsDomAtt": {
+                    "attributes": {
+                        "resImedcy": "immediate",
+                        "status": "created",
+                        "tDn": "uni/vmmp-VMware/dom-Corp-vmm-domain"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}

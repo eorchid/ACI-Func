@@ -1,0 +1,21 @@
+{
+    "vzFilter": {
+        "attributes": {
+            "name": "sql_ft"
+        },
+        "children": [
+            {
+                "vzEntry": {
+                    "attributes": {
+                        "dFromPort": "481",
+                        "dToPort": "481",
+                        "etherT": "ip",
+                        "name": "sql",
+                        "prot": "tcp"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}

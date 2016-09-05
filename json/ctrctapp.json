@@ -1,0 +1,27 @@
+{
+    "vzBrCP": {
+        "attributes": {
+            "name": "AppCtrct",
+            "scope": "tenant"
+        },
+        "children": [
+            {
+                "vzSubj": {
+                    "attributes": {
+                        "name": "APP"
+                    },
+                    "children": [
+                        {
+                            "vzRsSubjFiltAtt": {
+                                "attributes": {
+                                    "tnVzFilterName": "app_ft"
+                                },
+                                "children": []
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

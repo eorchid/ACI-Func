@@ -1,0 +1,17 @@
+{
+    "physDomP": {
+        "attributes": {
+            "name": "Corp-phy-domain"
+        },
+        "children": [
+            {
+                "infraRsVlanNs": {
+                    "attributes": {
+                        "tDn": "uni/infra/vlanns-[Corp-phy-vlan]-dynamic"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "vzBrCP": {
+        "attributes": {
+            "name": "SQLCtrct",
+            "scope": "tenant"
+        },
+        "children": [
+            {
+                "vzSubj": {
+                    "attributes": {
+                        "name": "SQL"
+                    },
+                    "children": [
+                        {
+                            "vzRsSubjFiltAtt": {
+                                "attributes": {
+                                    "tnVzFilterName": "sql_ft"
+                                },
+                                "children": []
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

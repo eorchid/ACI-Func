@@ -1,0 +1,35 @@
+{
+    "fvAEPg": {
+        "attributes": {
+            "name": "DB"
+        },
+        "children": [
+            {
+                "fvRsBd": {
+                    "attributes": {
+                        "tnFvBDName": "BD2"
+                    },
+                    "children": []
+                }
+            },
+            {
+                "fvRsDomAtt": {
+                    "attributes": {
+                        "encap": "vlan-45",
+                        "tDn": "uni/phys-Corp-phy-domain"
+                    },
+                    "children": []
+                }
+            },
+            {
+                "fvRsPathAtt": {
+                    "attributes": {
+                        "encap": "vlan-45",
+                        "tDn": "topology/pod-1/paths-103/pathep-[eth1/10]"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}

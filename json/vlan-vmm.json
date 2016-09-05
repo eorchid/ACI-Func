@@ -1,0 +1,18 @@
+{
+    "fvnsVlanInstP": {
+        "attributes": {
+            "name": "Corp-vmm-vlan"
+        },
+        "children": [
+            {
+                "fvnsEncapBlk": {
+                    "attributes": {
+                        "from": "vlan-40",
+                        "to": "vlan-44"
+                    },
+                    "children": []
+                }
+            }
+        ]
+    }
+}
